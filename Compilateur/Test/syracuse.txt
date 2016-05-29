@@ -1,0 +1,18 @@
+@Mips
+	load 113,r1
+parite:
+	scall 1
+	sub r1,1,r15
+	braz r15,end:
+	shr r1,15,r2
+	braz r2,impair:
+	branz r2,pair:
+impair:
+	mult r1,3,r1
+	add r1,1,r1
+	jmp parite:
+pair:
+	div r1,2,r1
+	jmp parite:
+end:
+	stop

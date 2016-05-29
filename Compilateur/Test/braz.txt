@@ -1,0 +1,6 @@
+@Mips
+load r0,0,r2
+fact:
+load r1,0,r2
+branz r1,fact:
+stop

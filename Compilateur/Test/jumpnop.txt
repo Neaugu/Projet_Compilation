@@ -1,0 +1,9 @@
+@Mips
+load r0,0,r2
+nop 
+fact:
+load r1,0,r2
+jmp fact:
+stop
+
+

@@ -1,0 +1,10 @@
+@Mips
+	add 10,r1
+	add r1,0,r2
+fact:
+	sub r2,1,r2
+	mult r2,r1,r1
+	braz r2,end:
+	jmp fact:
+end:
+	stop

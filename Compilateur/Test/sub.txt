@@ -1,0 +1,6 @@
+@Mips
+sub	r1,1,r2
+sub	r0,4,r3
+sub	r4,0,r5
+sub	r2,r4,r2
+stop

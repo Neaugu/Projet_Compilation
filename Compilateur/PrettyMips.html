@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<style>
+		body{
+			background:#000000;
+			color:#ffffff;
+		}
+		.operand{
+			color:#ffa200;
+		}
+		.label{
+			color:#FE2EF7;
+		}
+		.binaire{
+			color:#00ff00;
+			font-size:12px;
+		}
+		.header{
+			color:#a6a9aa;
+		}
+		.entier{
+			font-style:italic;
+		}
+		.entier::before{
+			content:"#";
+		}
+		.separateur{
+			color:#ff0000;
+		}
+		.register{
+			color:#ffffff;
+		}
+		.end{
+			color:#00FFFC;
+		}
+		
+	</style>
+	</head>
+<body>
+<div>
+<p>
+<span class=header>Autheur : Guillaume Neau IETA 2017<br>Compilateur pour Mips-X<br><br>@Mips
+</span>
+</p>
+<table>
+<tr>
+<td>
+</td>
+<td>
+<span class=operand>load</span>
+<span class=register>r1</span>
+<span class=separateur>,</span>
+<span class=entier>12</span>
+<span class=separateur>,</span>
+<span class=register>r15</span>
+
+</td>
+<td class=binaire>01101000010000000000000110001111</td>
+</tr>
+<tr>
+<td>
+<span class=label>coucou:</span>
+
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<span class=operand>scall</span>
+<span class=entier>0</span>
+
+</td>
+<td class=binaire>10010000000000000000000000000000</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<span class=operand>branz</span>
+<span class=register>r1</span>
+<span class=separateur>,</span>
+<span class=label>end:</span>
+
+</td>
+<td class=binaire>10001000010000000000000010000000</td>
+</tr>
+<tr>
+<td>
+<span class=label>end:</span>
+
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td>
+<span class=end>stop</span>
+</td>
+<td class=binaire>10011000000000000000000000000000</td>
+</tr>
+</table>
+</div></body></html>

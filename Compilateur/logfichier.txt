@@ -1,0 +1,31 @@
+Ouverture de : Test/testeg.txt
+
+Phase de lexing : 
+
+Balise programme Mips : @Mips
+Fin de ligne : ;
+Fin de ligne : ;
+Operande : load
+Registre : r1
+Separator : ,
+Entier : 12
+Separator : ,
+Registre : r15
+Fin de ligne : ;
+Error, wrong token used : nhggggggvgcbxsdfsdesde
+Fin de ligne : ;
+Label : coucou:
+Fin de ligne : ;
+Operande : scall
+Entier : 0
+Fin de ligne : ;
+Operande : branz
+Registre : r1
+Separator : ,
+Label : end:
+Fin de ligne : ;
+Fin de ligne : ;
+Label : end:
+Fin de ligne : ;
+Balise fin : stop
+Fin de ligne : ;

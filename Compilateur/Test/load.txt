@@ -1,0 +1,4 @@
+@Mips
+load r0,0,r2
+load r1,r10,r2
+stop

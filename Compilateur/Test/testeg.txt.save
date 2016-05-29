@@ -1,0 +1,10 @@
+@Mips
+
+load r1,12,r15
+
+coucou:
+scall 0
+branz r1,end:
+
+end:
+stop
